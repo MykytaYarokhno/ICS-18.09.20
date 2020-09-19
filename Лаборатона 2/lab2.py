@@ -1,0 +1,6 @@
+x = input("Enter first integer: ")
+y = input("Enter second integer: ")
+z = input("Enter third integer: ")
+if (x > y and x > z): print("First integer is the biggest.")
+if ( y > x and y > z): print("Second integer is the biggest.")
+if ( z > x and z > y): print("Third integer is the biggest.")
